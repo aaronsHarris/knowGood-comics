@@ -1,79 +1,108 @@
-# prject-x# Project Overview
+# KnowGOOD comics
+--- 
+# Project Overview
 
 ## Project Name
 
-The name of your project.
+KnowGOOD comics
 
 ## Project Description
-
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+---
+This application will help the end user find comic books, characters and issues based on the Name, Publisher, or Date
 
 ## API and Data Sample
+-------
+Comic Vine API:
+https://comicvine.gamespot.com/api/
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+```"name": "@Blaze-of-Glory ",
+            "origin": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/origin/4030-3/",
+                "id": 3,
+                "name": "Alien"
+            },
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-10/",
+                "id": 10,
+                "name": "DC Comics"
+            },
+            "real_name": null,
+            "site_detail_url": "https://comicvine.gamespot.com/blaze-of-glory/4005-160230/"
+        },
+        
+  ```
+
 
 ## Wireframes
+-------
+https://wireframe.cc/pro/pp/69f6ae871467578
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+------- 
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+
+- Fecth data from the Comic Vine API
+- Input favorite characters or titles or publishers
+- Provide description and image of current result 
+- have links to more information and where to buy
+- App has responsive design for mobile
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add possible local stores for current result
+- Use local storage to save user favorites or to manage your collection
+- link to videos or relavant movies
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+|Aug 27-29| Prompt / Wireframes / Priority Matrix / Timeframes | complete
+|Aug 30| Project Approval | Incomplete
+|Aug 30| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Aug 31| Pseudocode / actual code | Incomplete
+|Sept 1| Initial Clickable Model  | Incomplete
+|Sept 2| MVP | Incomplete
+|Sept 3| Presentations | Incomplete
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+https://app.conceptboard.com/board/tsna-9ozx-cqko-fk1i-c4fq
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Working with API | H | 3hrs| 0 | 0 |
+| fetching data | H | 6hrs| 0 | 0 |
+| applying javascript | H | 12hrs| 0 | 0 |
+| structuring HTML| H | 3hrs| 0 | 0 |
+| styling with CSS | H | 8hrs| 0 | 0 |
+| errors | H | 8hrs| 0 | 0 |
+| Total | H | 40hrs | 0 |0 |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+   "_embedded": {
+        "events": [
+            {
+                "name": "Sacramento Kings vs. Phoenix Suns",
+                "type": "event",
+                "id": "G5vYZps1DDfO-",
+                "test": false,
+                "url": "https://www.ticketmaster.com/sacramento-kings-vs-phoenix-suns-sacramento-california-10-04-2021/event/1C005B12BBED4821",
+                "locale": "en-us",
+                "images": [
+                    {
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+- Ive alraady changed this project 3 times. 
