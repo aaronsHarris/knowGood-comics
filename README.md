@@ -1,12 +1,10 @@
-# KnowGOOD comics
+
+
+## KnowGOOD comics
 --- 
-# Project Overview
 
-## Project Name
 
-KnowGOOD comics
-
-## Project Description
+### Project Description
 ---
 This application will help the end user find comic books, characters and issues based on the Name, Publisher, or Date
 
@@ -36,7 +34,8 @@ https://comicvine.gamespot.com/api/
 ## Wireframes
 -------
 https://wireframe.cc/pro/pp/69f6ae871467578
-
+ 
+![wire frame](https://res.cloudinary.com/dbdrox2p9/image/upload/v1630329751/Homepage_mp2qjk.png)
 
 ### MVP/PostMVP
 
@@ -71,19 +70,21 @@ https://wireframe.cc/pro/pp/69f6ae871467578
 
 ## Priority Matrix
 
-https://app.conceptboard.com/board/tsna-9ozx-cqko-fk1i-c4fq
+![priority matrix](https://res.cloudinary.com/dbdrox2p9/image/upload/v1630332411/Screen_Shot_2021-08-30_at_9.04.31_AM_fv1t9w.png)
 
 ## Timeframes
 
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Working with API | H | 3hrs| 0 | 0 |
-| fetching data | H | 6hrs| 0 | 0 |
-| applying javascript | H | 12hrs| 0 | 0 |
+| Working with API | H | 4hrs| 0 | 0 |
+| fetching data | H | 3hrs| 0 | 0 |
+| javascript | H | 12hrs| 0 | 0 |
 | structuring HTML| H | 3hrs| 0 | 0 |
-| styling with CSS | H | 8hrs| 0 | 0 |
-| errors | H | 8hrs| 0 | 0 |
+|CSS for desktop| H | 5hrs| 0 | 0 |
+|CSS for responsive| H | 4hrs| 0 | 0 |
+| errors | H | 4hrs| 0 | 0 |
+| post mvp | H | 4hrs| 0 | 0 |
 | Total | H | 40hrs | 0 |0 |
 
 ## Code Snippet

@@ -1,33 +1,34 @@
-// const DOMAIN = "https://app.ticketmaster.com/discovery/v2/"
-// const apiKey = "apikey=McHHlW14GgvchUam7XP8frZipsqMiCMm"
-// // const BASE_URL = `${DOMAIN}venues.json?${apiKey}`
-// const attractions = "attractions.json?"
-// const venues = "venues.json?"
-
-// //input and search button
-// const searchBtn = document.querySelector("#search-btn")
-// const input = document.querySelector("input")
-// const searchSection = document.querySelector(".search-section")
-
-// searchBtn.addEventListener("click", (e) => {
-//   e.preventDefault()
-//   let search = input.value
-//   fetchData(search)
-
-// })
+const DOMAIN = "https://comicvine.gamespot.com/api/"
+const apiKey = "/?api_key=23e5b584f227a60bcffe650e03c61c3e09644d7e"
+const CHAR_URL = `${DOMAIN}characters${apiKey}`
+const PUBL_URL = `${DOMAIN}publisher${apiKey}`
+const VOL_URL = `${DOMAIN}volumes${apiKey}`
+const ISS_URL = `${DOMAIN}issues${apiKey}`
 
 
-// // GET DATA FROM TICKET MASTER
-// async function fetchData(shows) {
-//   try {
-//     let res = await axios.get(`${DOMAIN}${attractions}${apiKey}`)
-//     let attractionsArr = res.data
-//     console.log(attractionsArr)
-//     // showArtistName(attractionsArr)
-//   } catch (error) {
-//     console.log("error")
-//   }
-// }
+
+//input and search button
+const searchBtn = document.querySelector("#search-btn")
+const input = document.querySelector("input")
+const searchSection = document.querySelector(".search-section")
+
+searchBtn.addEventListener("click", (e) => {
+  e.preventDefault()
+  let search = input.value
+  fetchData(search)
+
+})
+
+
+// GET DATA FROM TICKET MASTER
+async function fetchData() {
+  try {
+    let res = await axios.get(`${CHAR_URL}`)
+    console.log(res.results)
+  } catch (error) {
+    console.log("error")
+  }
+}
 
 
 
@@ -45,7 +46,7 @@
 // function showArtistName(attractions) {
 //   attractions.forEach((artit) => {
 //     console.log(aatractionsArr)
-    
+
 //   })
 // }
 //APPEND ARTIST NAME

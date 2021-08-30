@@ -35,8 +35,8 @@ width: 100%;
 
 
 #navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: green;
+  /* background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); */
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -81,13 +81,13 @@ button {
   width: 100%;
 }
 
-.first-card:nth-child(1) {
+/* .first-card:nth-child(1) {
   /* order: 0;  */
-  align-self: auto;
+  /* align-self: auto;
   background-color: greenyellow;
   width: auto;
-}
-.second-card:nth-child(2) {
+} */
+/* .second-card:nth-child(2) {
   /* display: flex; */
   padding: 20px;
   width: 60%;
@@ -97,9 +97,9 @@ button {
   text-align: center;
   border-radius: 10%;
   flex-grow: 1;
-}
+} */
 
-.third-card:nth-child(3) {
+/* .third-card:nth-child(3) {
   padding: 20px;
   width: 60%; 
   height: 300px;
@@ -107,4 +107,4 @@ button {
   margin: 50px;
   text-align: center;
   border-radius: 10%; 
-}
+}  */
