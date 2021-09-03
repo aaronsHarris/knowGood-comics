@@ -89,7 +89,7 @@ input {
   font-size: 1rem;
   font-family: 'Comic Neue', cursive;
   overflow: scroll;
-  background-image: url(./images/old_cb.jpeg);
+  /* background-image: url(./images/old_cb.jpeg); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -129,7 +129,7 @@ img {
   /* margin: 19px; */
   font-family: 'Comic Neue', cursive;
   font-size: 24px;
-  background-image: url(./images/wood_background.jpeg);
+  /* background-image: url(./images/wood_background.jpeg); */
   background-repeat: no-repeat;
   background-size: cover;
 }
