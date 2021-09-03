@@ -128,6 +128,7 @@ img {
   /* border: solid black; */
   /* margin: 19px; */
   font-family: 'Comic Neue', cursive;
+  font-size: 24px;
   background-image: url(/images/wood_background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -137,6 +138,7 @@ img {
   display: flex;
   width: 250px;
   margin: 10px;
+  
 }
 
 .heroBioContainer {

@@ -10,23 +10,22 @@ This application will help the end user look up fun facts about different comic 
 
 ## API and Data Sample
 -------
-Comic Vine API:
-https://comicvine.gamespot.com/api/
+Super Hero API:
+http://superheroapi.com/
 
-```"name": "@Blaze-of-Glory ",
-            "origin": {
-                "api_detail_url": "https://comicvine.gamespot.com/api/origin/4030-3/",
-                "id": 3,
-                "name": "Alien"
+``{
+            "id": "70",
+            "name": "Batman",
+            "powerstats": {
+                "intelligence": "100",
+                "strength": "26",
+                "speed": "27",
+                "durability": "50",
+                "power": "47",
+                "combat": "100"
             },
-            "publisher": {
-                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-10/",
-                "id": 10,
-                "name": "DC Comics"
-            },
-            "real_name": null,
-            "site_detail_url": "https://comicvine.gamespot.com/blaze-of-glory/4005-160230/"
-        },
+            "biography": {
+                "full-name": "Bruce Wayne",
         
   ```
 
@@ -51,10 +50,10 @@ https://wireframe.cc/pro/pp/69f6ae871467578
 
 #### PostMVP  
 
-- Add possible local stores for current result
-- Use local storage to save user favorites or to manage your collection
+- Add local stores for saving favorites
+- connect second API to get more data
 - make a fun vs card game
-
+- make share links for results and favorites
 ## Project Schedule
 
 |  Day | Deliverable | Status
