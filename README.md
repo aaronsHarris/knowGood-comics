@@ -6,7 +6,7 @@
 
 ### Project Description
 ---
-This application will help the end user find comic books, characters and issues based on the Name, Publisher, or Date
+This application will help the end user look up fun facts about different comic book characters using the Super Hero API
 
 ## API and Data Sample
 -------
@@ -44,17 +44,16 @@ https://wireframe.cc/pro/pp/69f6ae871467578
 #### MVP 
 
 
-- Fecth data from the Comic Vine API
-- Input favorite characters or titles or publishers
+- Fecth data from the Super Hero API
+- Input favorite characters from comic univeres
 - Provide description and image of current result 
-- have links to more information and where to buy
 - App has responsive design for mobile
 
 #### PostMVP  
 
 - Add possible local stores for current result
 - Use local storage to save user favorites or to manage your collection
-- link to videos or relavant movies
+- make a fun vs card game
 
 ## Project Schedule
 
@@ -77,33 +76,40 @@ https://wireframe.cc/pro/pp/69f6ae871467578
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Working with API | H | 4hrs| 0 | 0 |
-| fetching data | H | 3hrs| 0 | 0 |
-| javascript | H | 12hrs| 0 | 0 |
-| structuring HTML| H | 3hrs| 0 | 0 |
-|CSS for desktop| H | 5hrs| 0 | 0 |
-|CSS for responsive| H | 4hrs| 0 | 0 |
-| errors | H | 4hrs| 0 | 0 |
+| Working with API | H | 4hrs| 6hrs | 6hrs |
+| fetching data | H | 3hrs| 4hrs | 4hrs|
+| js functions | H | 3hrs| 4hrs | 4hrs |
+| js dom manipulation | H | 3hrs| 6hrs | 6hrs|
+| structuring HTML| H | 3hrs| 1hr | 1hr |
+|CSS for desktop| H | 5hrs| 6hrs | 6hrs |
+|CSS for responsive| H | 4hrs| 1hr | 1hr |
+| errors | H | 4hrs| 8hrs | 8hrs |
 | post mvp | H | 4hrs| 0 | 0 |
-| Total | H | 40hrs | 0 |0 |
+| Total | H | 40hrs | 36hrs |36hrs |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-   "_embedded": {
-        "events": [
-            {
-                "name": "Sacramento Kings vs. Phoenix Suns",
-                "type": "event",
-                "id": "G5vYZps1DDfO-",
-                "test": false,
-                "url": "https://www.ticketmaster.com/sacramento-kings-vs-phoenix-suns-sacramento-california-10-04-2021/event/1C005B12BBED4821",
-                "locale": "en-us",
-                "images": [
-                    {
+async function fetchData(typeInput) {
+  try {
+
+    let res = await axios.get(`${corsAnywhere}${url}${typeInput}`)
+    let charArr = res.data.results
+    removeOldContent()
+    charArr.forEach((Obj) => {
+      console.log(Obj)
+      showCharacter(Obj)
+    })
+  } catch (error) {
+    console.log("error")
+  }
+}
 ```
 
 ## Change Log
-- Ive alraady changed this project 3 times. 
+- Ive changed the direction of the project
+- The API only give you back a small amount of data compared to what the documentation says.
+- I changed the API to better suit the project
+- i changed the event listener to a keyup 
