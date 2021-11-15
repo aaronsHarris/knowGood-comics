@@ -2,7 +2,7 @@
 
 ## KnowGOOD comics
 --- 
-[link to deplyed site] ( https://aaronsharris.github.io/knowGood-comics/)
+[link to deplyed site]( https://aaronsharris.github.io/knowGood-comics/)
 
 ### Project Description
 ---
